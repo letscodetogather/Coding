@@ -1,3 +1,8 @@
+#####################################################################
+# Find the triplet from a given list whose some will be equal to s
+#
+#
+#####################################################################
 def triplet_sum(l, s):
     l.sort()
     for i in range(len(l)-2):
